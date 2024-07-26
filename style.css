@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game{
+    border: 1.5px solid gray;
+    border-radius: 20px;
+}
+.game h1{
+    margin: 30px 60px;
+}
+.game h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.result{
+    text-align: center;
+    margin-top: 10px;
+}
+.score{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.image img{
+    height: 120px;
+    width: 130px;
+    border-radius: 50%;
+}
+.rps{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    height: 125px;
+}
+.rps img{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rps img:hover{
+    width: 85px;
+    height: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes bell {
+    0%{ rotate: 0deg;}
+    10%{ rotate: 10deg;}
+    30%{ rotate: -10deg;}
+    45%{ rotate: 5deg;}
+    55%{ rotate: -5deg;}
+    60%{ rotate: 0deg;}
+    
+}
+
